@@ -1,0 +1,150 @@
+.App {
+    height: 100vh;
+    background-color: #F5F6FA;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5em;
+    width: 50%;
+    margin: 0 auto;
+    min-width: 300px;
+    text-align: start;
+}
+
+#title {
+    color: #746A6A;
+    margin-bottom: 20px;
+    font-size: 25px;
+    width: 200px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+
+    background: linear-gradient(90deg, #AA67FF, #8573F1, #1773D2);
+    padding: 20px;
+    min-width: 300px;
+    width: 100%;
+}
+
+section>div {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    padding: 0px 15px;
+}
+
+section>div input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+}
+
+::-webkit-input-placeholder {
+    color: #AF73FB;
+}
+
+section>div button {
+    color: #AF73FB;
+    background-color: white;
+    border: none;
+    font-size: 45px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+section>div button:hover {
+    opacity: 80%;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    text-align: end;
+    padding: 10px;
+    max-height: 300px;
+    overflow: auto;
+    overflow-y: auto;
+}
+
+ul::-webkit-scrollbar {
+    width: 10px;
+    border-radius: 10px;
+}
+
+ul::-webkit-scrollbar-thumb   {
+    background-color:#8573F1;
+    width: 5px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+li {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.32);
+    padding-bottom: 15px;
+}
+
+li div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+li div:nth-child(1) #littleBall {
+    background-color: white;
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+}
+
+li div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    color: #AF73FB;
+
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 17px;
+    font-weight: bold;
+}
+
+li div button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+li div button img {
+    width: 20px;
+}
+
+li div button img:hover {
+    transform: scale(1.1);
+}
+
+li div button img:active {
+    transform: scale(1);
+}
+
+#quantity {
+    color: white;
+    font-size: 20px;
+}
