@@ -1,4 +1,4 @@
-﻿# ListaDeMercado
+﻿# Lista de Mercado
 
 ## Sobre o projeto
 
