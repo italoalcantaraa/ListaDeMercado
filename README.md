@@ -1,4 +1,4 @@
-﻿# Lista de Mercado 🛒
+﻿# |Lista de Mercado 🛒
 
 ## Sobre o projeto
 
