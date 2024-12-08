@@ -2,7 +2,7 @@
 
 ## Sobre o projeto
 
-  Este projeto foi desenvolvido utilizando ReactJS e Vite. O objetivo é criar uma lista de compras de supermercado, onde os usuários possam adicionar, remover e incrementar/decrementar a quantidade do mesmo produto.
+  Este projeto foi desenvolvido utilizando ReactJS. O objetivo é criar uma lista de compras de supermercado, onde os usuários possam adicionar, remover e incrementar/decrementar a quantidade do mesmo produto.
 
 ## Funcionalidades
 
